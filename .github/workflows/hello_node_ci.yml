@@ -1,7 +1,8 @@
 name: hello-node-ci
 on:
   push:
-    #path:
+    paths: 
+        - "./node"
   workflow_dispatch:
 
 jobs:
